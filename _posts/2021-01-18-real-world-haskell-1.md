@@ -1,0 +1,34 @@
+---
+layout: post
+categories: 学习笔记
+tags: Haskell, 《Real World Haskell》
+title: 《Real World Haskell》 - ch1. Getting Started
+---
+
+# Haskell 环境简介
+
+目前有两种常用的环境：
+
+- **Hugs**，解释器，常用于教学。
+- **Glasgow Haskell Compiler (GHC)**，一个工具包（系统），更具实用性，主要包含以下三个组件：
+  - **ghc**，编译器，可进行代码优化；
+  - **ghci**，可互动的解释器和调试器；
+  - **runghc**，一个程序，可将Haskell代码当作脚本执行。
+
+# ghci常用命令
+
+- ```:?```，输出关于**ghci**的帮助信息
+- ```:set prompt "xxx> "```，将提示符改为```xxx> ```
+- ```:module + Data.Ratio```，读取```Data.Ratio```模块
+- ```:info func```，输出函数```func```的说明信息
+- ```let e = exp 1```，定义变量```e```
+- 
+
+# 一些关于Haskell的Tips
+
+- 不能使用数字代替布尔变量（```True```和```False```）
+- 运算符几乎与**C**相同，但用```/=```表示*不等于*，```not```表示*逻辑反*
+- ```**```用于浮点数的阶乘，```^```用于整数的阶乘
+- 列表元素必须类型相同
+- ```[1..10]```，在列表最后一个元素前使用```..```，实现列表枚举，间隔看头两个元素（可为负，默认为1），上界为浮点数时加$0.5$。
+
