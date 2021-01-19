@@ -2,7 +2,7 @@
 layout: post
 categories: 学习笔记
 tags: ["Haskell", "《Real World Haskell》"]
-title: 《Real World Haskell》 - ch2. 定义类型并简化函数
+title: 《Real World Haskell》 - ch3. 定义类型并简化函数
 ---
 
 # 定义新的数据类型
@@ -18,11 +18,11 @@ data BookInfo = Book Int String [String]
 
 # 类型别名
 
+```type```关键字相当于**C**语言中的```typedef```，可以实现类型别名。
+
 ```haskell
 type ID = Int
 ```
-
-```type```关键字相当于**C**语言中的```typedef```，可以实现类型别名。
 
 # 枚举
 
