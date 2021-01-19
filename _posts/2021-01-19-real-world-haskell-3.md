@@ -18,7 +18,7 @@ data BookInfo = Book Int String [String]
 
 # 类型别名
 
-```type```关键字相当于**C**语言中的```typedef```，可以实现类型别名。
+Haskell中的```type```关键字相当于**C**语言中的```typedef```，可以实现类型别名。
 
 ```haskell
 type ID = Int
