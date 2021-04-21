@@ -76,7 +76,7 @@ plugins:
 # ---------------------------------------------------------------
 
 # Put your favicon.ico into `assets/` directory.
-favicon: /assets/favicon.ico
+favicon: /assets/images/tree-silhouette.png
 
 # Set default keywords (Use a comma to separate)
 keywords: "Jekyll, NexT"
@@ -378,6 +378,25 @@ han: false
 # Duoshuo ShortName
 #duoshuo_shortname:
 
+# Valine评论系统开关
+# Valine.
+# You can get your appid and appkey from https://leancloud.app
+# more info please open https://valine.js.org
+# 设置请参考：https://duter2016.github.io/2019/09/18/Jekyll%E6%B7%BB%E5%8A%A0Valine%E8%AF%84%E8%AE%BA-%E9%82%AE%E4%BB%B6%E9%80%9A%E7%9F%A5%E5%92%8C%E8%AF%84%E8%AE%BA%E5%88%97%E8%A1%A8%E5%A4%B4%E5%83%8F/
+valine:
+  enable: true
+  appid:  C7en78CJubYYmm2cu2Gx4SS5-gzGzoHsz # your leancloud app id
+  appkey: xhXNos9RUbxQukOATQ27rjnu # your leancloud app key
+  notify: true # mail notifier , https://github.com/xCss/Valine/wiki，v1.4.0+ 已废弃
+  verify: true # Verification code，v1.4.0+ 已废弃
+  placeholder: 在这里留下你的评论吧~ # comment box placeholder
+  avatar:   # gravatar style
+  guest_info: 昵称,邮件,网址 # custom comment header
+  pageSize: 10 # pagination size
+  # path: window.location.pathname #  v1.4.0+不要使用参数“app_key: 'LHvLGcwcauE5B2JpMxJ3lbtF',”
+  recordIP: true # 是否记录评论者IP
+  enableQQ: true # 是否启用昵称框自动获取QQ昵称和QQ头像, 默认关闭
+
 # Disqus
 disqus:
   enable: false
@@ -435,18 +454,12 @@ changyan:
 
 # Support for gitalk comments system.
 gitalk:
-  enable: true
+  enable: false
   clientID: 370ea09d2f566a1879e5
   clientSecret: 6173500708b023d9647dc1c499ef8897369b2fa1
   repo: meowcassiel.github.io
   owner: meowcassiel
   admin: meowcassiel
-
-# Gitalk settings
-comment_gitalk_clientId: 370ea09d2f566a1879e5
-comment_gitalk_clientSecret: 6173500708b023d9647dc1c499ef8897369b2fa1
-comment_gitalk_repo: meowcassiel.github.io
-github_username: meowcassiel
 
 # Baidu Share
 # Available value:
@@ -592,7 +605,7 @@ algolia_search:
 
 # Local search
 local_search:
-  enable: false
+  enable: true
   # if auto, trigger search by changing input
   # if manual, trigger search by pressing enter key or search button
   trigger: auto

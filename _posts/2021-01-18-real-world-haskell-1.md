@@ -3,7 +3,6 @@ layout: post
 categories: 学习笔记
 tags: ["Haskell", "《Real World Haskell》"]
 title: 《Real World Haskell》 - ch1. Getting Started
-excerpt_separator: <!--more-->
 ---
 
 <!-- more -->

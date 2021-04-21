@@ -5,8 +5,6 @@ tags: ["Haskell", "《Real World Haskell》"]
 title: 《Real World Haskell》 - ch2. 类型与函数
 ---
 
-
-
 <!-- more -->
 
 # Haskell的类型特点
