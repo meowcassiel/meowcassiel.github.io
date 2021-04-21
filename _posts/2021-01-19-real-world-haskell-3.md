@@ -3,7 +3,10 @@ layout: post
 categories: 学习笔记
 tags: ["Haskell", "《Real World Haskell》"]
 title: 《Real World Haskell》 - ch3. 定义类型并简化函数
+
 ---
+
+<!-- more -->
 
 # 定义新的数据类型
 

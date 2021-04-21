@@ -35,7 +35,7 @@ paginate: 10
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", "Gemfile", "Gemfile.lock", "README_en.md", "vendor"]
 
 # Separator
-#excerpt_separator: <!-- more -->
+excerpt_separator: <!-- more -->
 
 # Code Highlighter
 ## 'pygments' is unsupported on GitHub Pages now.
@@ -435,12 +435,18 @@ changyan:
 
 # Support for gitalk comments system.
 gitalk:
-  enable: false
-  clientID: # 54730ddf7b9420460c03
-  clientSecret: # c05684701b25ff1c19ea0c01ce4d80c125e0707d
-  repo: # colingpt.github.io
-  owner: # colingpt
-  admin: # colingpt
+  enable: true
+  clientID: 370ea09d2f566a1879e5
+  clientSecret: 6173500708b023d9647dc1c499ef8897369b2fa1
+  repo: meowcassiel.github.io
+  owner: meowcassiel
+  admin: meowcassiel
+
+# Gitalk settings
+comment_gitalk_clientId: 370ea09d2f566a1879e5
+comment_gitalk_clientSecret: 6173500708b023d9647dc1c499ef8897369b2fa1
+comment_gitalk_repo: meowcassiel.github.io
+github_username: meowcassiel
 
 # Baidu Share
 # Available value:

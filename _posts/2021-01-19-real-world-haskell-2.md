@@ -5,6 +5,10 @@ tags: ["Haskell", "《Real World Haskell》"]
 title: 《Real World Haskell》 - ch2. 类型与函数
 ---
 
+
+
+<!-- more -->
+
 # Haskell的类型特点
 
 Haskell的类型系统主要有以下三个特点：

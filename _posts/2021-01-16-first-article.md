@@ -3,9 +3,8 @@ layout: post
 categories: 日常杂谈
 tags: 自我总结
 title: 第一篇博文
+excerpt_separator: <!--more-->
 ---
-
-
 
 虽然标题写着“这是第一篇博文”，然而并不是。之前多多少少也有写一点学习笔记类的文章，但都是抱着随意的态度写的，而且没有坚持。
 

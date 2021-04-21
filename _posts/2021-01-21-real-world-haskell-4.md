@@ -3,7 +3,10 @@ layout: post
 categories: 学习笔记
 tags: ["Haskell", "《Real World Haskell》"]
 title: 《Real World Haskell》 - ch4. 函数式编程
+
 ---
+
+<!-- more -->
 
 # 中缀函数
 
